@@ -1,4 +1,4 @@
-### Sorting Algo
+### Sorting Algorithms
 
 
 > Comparison Sort vs Count Sort
