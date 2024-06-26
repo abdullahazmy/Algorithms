@@ -12,4 +12,5 @@ The [insertion sort](https://github.com/abdullahazmy/Algorithms/blob/main/sortin
 - As the selection sort doesn't depend on test cases, it will always work with the nested loops, while in the insertion sort
 It will work in the nested loop in case of worst case
 
-- The complexity of [Count Sort](https://github.com/abdullahazmy/Algorithms/blob/main/sorting-algo/countSort.cpp) is o(mxVal) + o(n)
+- The complexity of [Count Sort](https://github.com/abdullahazmy/Algorithms/blob/main/sorting-algo/countSort.cpp) is  
+always o(mxVal) + o(n) at both worst & best case
