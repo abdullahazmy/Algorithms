@@ -1,35 +1,48 @@
-#include <bits/stdc++.h>
+#include <vector>
+#include <algorithm> // for std::swap
 using namespace std;
 
-vector<int> countSort(vector<int> &array)
+class Solution
 {
-    int size = array.size(), maxVal = array[0];
-
-    // Calculate MaxElemnt
-    for (int i = 1; i < size; i++)
-        if (array[i] > maxVal)
-            maxVal = array[i];
-
-    vector<int> count(maxVal + 1, 0); // Vector of size maxVal +1 & initialize with zero
-
-    // Frequency Array
-    for (int i = 0; i < size; i++)
-        count[array[i]] += 1;
-
-    // put values back to the Array
-    int idx = 0;
-    for (int i = 0; i <= maxVal; i++)
+private:
+    int maxEl(const vector<int>& nums)
     {
-        for (int j = 0; j < count[i]; j++, idx++)
-            array[idx] = i;
+        int mx = nums[0];
+        for (int num : nums)
+        {
+            if (num > mx)
+                mx = num;
+        }
+        return mx;
     }
-    return array;
-}
 
-int main()
-{
-    vector<int> nums = {3, 10, 2, 1};
-    countSort(nums);
-    for (auto i : nums)
-        cout << i << " ";
-}
+    vector<int> freq(const vector<int>& nums)
+    {
+        vector<int> vc(maxEl(nums) + 1, 0);
+        for (int num : nums)
+            vc[num] += 1;
+        return vc;
+    }
+
+    void countSort(vector<int>& nums)
+    {
+        int mx = maxEl(nums);
+        vector<int> count = freq(nums);
+        int idx = 0;
+        for (int i = 0; i <= mx; i++)
+        {
+            while (count[i] > 0)
+            {
+                nums[idx++] = i;
+                count[i]--;
+            }
+        }
+    }
+
+public:
+    vector<int> sortArray(vector<int>& nums)
+    {
+        countSort(nums);
+        return nums;
+    }
+};
