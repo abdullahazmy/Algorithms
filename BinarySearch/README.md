@@ -6,3 +6,7 @@
 2. To solve the issue we use the formula `left + (right - left) / 2`
 
 ---
+
+The [lower_bound](https://github.com/abdullahazmy/Algorithms/blob/main/BinarySearch/BS-stls.cpp) is used to get the first idx >= the target
+
+while the upper_bound is used to get the first idx > the target
