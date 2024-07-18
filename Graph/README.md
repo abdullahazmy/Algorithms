@@ -10,15 +10,14 @@ Vertices: Vertices are the fundamental units of the graph. Sometimes, vertices a
 
 Edges: Edges are drawn or used to connect two nodes of the graph. It can be ordered pair of nodes in a directed graph. Edges can connect any two nodes in any possible way. There are no rules. Sometimes, edges are also known as arcs. Every edge can be labelled/unlabelled.
 
-![Graph directions](image.png)
+Graph has two types:
+1. Directed
+2. Undirected
 
 ---
 
-![Graph loops](image-1.png)
 
----
-
-if the graph is fully connected or complete, yhen number of edges is `(N * (N-1) / 2)`
+if the graph is fully connected or complete, hen number of edges is `(N * (N-1) / 2)`
 
 ---
 
