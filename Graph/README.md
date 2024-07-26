@@ -21,6 +21,8 @@ If the graph is fully connected or complete, then the number of edges is `(N * (
 
 ### Important Notes
 
+We can Implement graph with, hashMap, hashSet, linkedlist
+
 A directed acyclic graph **(DAG)** is a directed graph with no directed cycles.
 
 A tree is an undirected graph having the number of edges = N - 1.
