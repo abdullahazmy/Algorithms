@@ -25,4 +25,20 @@ A directed acyclic graph **(DAG)** is a directed graph with no directed cycles.
 
 A tree is an undirected graph having the number of edges = N - 1.
 
-![alt text](image.png)
+![alt text](images/image.png)
+
+A node cannot appear twice within a path while traversing, according to the path definition.
+
+Degree is the number of edges a node has, and the total number of degrees a graph has is `2 * no. of edges` for an undirected graph.
+
+---
+
+**Rooted Tree Representation**
+A rooted tree representation is a way to depict a tree structure where one node is designated as the root node. The root node is the starting point of the tree and all other nodes are connected to it through edges. Each node in the tree can have zero or more child nodes, and each child node can have its own child nodes. This hierarchical structure allows for efficient traversal and organization of data. In a rooted tree representation, the root node is typically depicted at the top, with child nodes branching out below it. This representation is commonly used in various algorithms and data structures, such as binary trees and decision trees.
+
+![An image for how to implement it with a single Array](images/image-1.png)
+
+---
+
+The time complexity of DFS is O(N+M), where M is the number of edges and N is the number of nodes. For adjacency list representation, the time complexity is O(N+M), while for adjacency matrix representation, it takes O(N^2).
+
