@@ -30,7 +30,7 @@ void solve()
         if (l == 0)
         {
             cout << prefix[r];
-            return;
+            continue;
         }
 
         cout << prefix[r] - prefix[l - 1];
