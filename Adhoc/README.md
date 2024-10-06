@@ -65,4 +65,4 @@ By preprocessing the array, prefix sum allows for efficient query operations, ma
 
 ---
 
-[For recap](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbnRObkFOcHdUMnFoRFFVcjdZV016RGJyZzhXQXxBQ3Jtc0tuSjFTcTNiM1daN1dVYWhfUjdLSWVBbDZtelFDb2otdjdZSEJ2WEpJalFTcm84bUJHMEFma0hGX1I0M0NPdmJjVHkxandGbEhaNEthNExtMlRwLWY2REh1NngyU2lHUVBLdTFWaHk2V3Q0NkVrTG9TYw&q=https%3A%2F%2Fwww.canva.com%2Fdesign%2FDAGSKPs7xNc%2FEs_9X9NoZ0oQMreNCziPHA%2Fview%3Futm_content%3DDAGSKPs7xNc%26utm_campaign%3Ddesignshare%26utm_medium%3Dlink%26utm_source%3Deditor&v=i4A7HG4bGic)
+[For recap view the animated presentation](https://www.canva.com/design/DAGSKPs7xNc/Es_9X9NoZ0oQMreNCziPHA/view?utm_content=DAGSKPs7xNc&utm_campaign=designshare&utm_medium=link&utm_source=viewer)
